@@ -1,0 +1,47 @@
+Push Local Project into Github
+
+1. Open Project folder in vs code edito cd project
+2. Initialize Git in Your Project :  git init
+3. Add Your Files to the Repository:  git add .
+4. Commit Your Changes: git commit -m "upload a portfolio project"
+5. Go to Your github account - Create a New Repository - copy 
+6. git remote add origin <repository-url> - (git remote add origin https://github.com/Nandhini-php-Developer/Portfolio.git)
+7. check your current branch - git branch
+8. create new branch  - git branch developer1
+9. switch to created branch - git checkout developer1.
+10. check again your branch  - git branch now see the developer1
+11. push this branch to your project - git push origin developer1.
+
+--------- DONE ----------
+
+
+setup Github Project using repository-url into local system visual studio
+
+install git and setup configurations
+
+After installed git
+open cmd : 
+    git --version
+    git config --global user.name "Nandhini-php-Developer"
+    git config --global user.email "naganandhini3012@gmail.com"
+    git config --list - display configs 
+
+1. create folder - github portfolio
+2. cd github portfolio
+3. clone your repository --- git clone https://github.com/Nandhini-php-Developer/Portfolio.git
+4. open the project vs code - code .
+5. Any changes to your project update local changes into github 
+    cd gitfolder(Portfolio) , 
+    git add . , or modified specific file only (git add filename.txt)
+    git commit -m "i update the index file title" , 
+    git pull origin main , 
+    git push origin main.
+
+
+---------- DONE -----------
+
+check git status - git status
+Check Current Remote URL: git remote -v
+Update Remote URL: git remote set-url origin <new-remote-url>
+git push origin main
+
